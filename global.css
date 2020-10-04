@@ -1,0 +1,52 @@
+body {
+  color: #202945;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+section {
+  margin: auto;
+  max-width: 960px;
+}
+
+h1 {
+  color: #202945;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 100;
+  font-family: 'Abel', sans-serif;
+  vertical-align: middle;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: #d60002;
+}
+a:hover {
+  color: #d60002;
+  background-color: rgba(214, 0, 4, 0.1);
+}
+
+/* selected link */
+
+.tll-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #d4d4d4;
+  padding-left: 4rem;
+  margin: 0;
+  -webkit-box-shadow: 0px 0.25rem 0.25rem #202945;
+  -moz-box-shadow: 0px 0.25rem 0.25rem #202945;
+  box-shadow: 0px 0.25rem 0.25rem #202945;
+}
+
+.header-logo {
+  height: 130px;
+  width: 130px;
+  margin: 1rem;
+}
